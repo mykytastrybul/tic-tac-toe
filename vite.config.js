@@ -5,5 +5,3 @@ import vue from "@vitejs/plugin-vue";
 export default defineConfig({
   plugins: [vue()],
 });
-
-export const publicPath = "https://s3bull.github.io/tic-tac-toe/";
