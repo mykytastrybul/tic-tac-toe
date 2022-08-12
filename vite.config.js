@@ -6,6 +6,4 @@ export default defineConfig({
   plugins: [vue()],
 });
 
-module.exports = {
-  publicPath: "https://s3bull.github.io/tic-tac-toe/",
-};
+export const publicPath = "https://s3bull.github.io/tic-tac-toe/";
